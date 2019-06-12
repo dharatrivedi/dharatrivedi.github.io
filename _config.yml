@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 # Setup
 title:        Trivedi Research Group
-tagline:      A responsive theme for your project on GitHub Pages
+tagline:      
 baseurl:      ""
 paginate:     1
 locale:       "en"
