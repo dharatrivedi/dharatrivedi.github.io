@@ -1,14 +1,1 @@
 theme: jekyll-theme-cayman
-# Setup
-title:        Trivedi Research Group
-tagline:      
-baseurl:      ""
-paginate:     1
-locale:       "en"
-
-# Gems
-gems:
-  - jekyll-paginate
-
-#Others
-markdown: kramdown
