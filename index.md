@@ -1,4 +1,11 @@
-## Welcome to GitHub Pages
+<section class="page-header">
+  <h1 class="project-name">{{ site.title }}</h1>
+  <h2 class="project-tagline">{{ site.tagline }}</h2>
+  <a href="#" class="btn">View on GitHub</a>
+  <a href="#" class="btn">Download .zip</a>
+  <a href="#" class="btn">Download .tar.gz</a>
+</section>
+# Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/dharatrivedi/dharatrivedi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
