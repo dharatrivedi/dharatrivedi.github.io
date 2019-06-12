@@ -1,7 +1,9 @@
 <section class="page-header">
-  <a href="#" class="btn">View on GitHub</a>
-  <a href="#" class="btn">Download .zip</a>
-  <a href="#" class="btn">Download .tar.gz</a>
+  <a href="#" class="btn">Home</a>
+  <a href="#" class="btn">Research</a>
+  <a href="#" class="btn">People</a>
+  <a href="#" class="btn">Publication</a>
+  
 </section>
 # Welcome to Trivedi Research Group!
 
