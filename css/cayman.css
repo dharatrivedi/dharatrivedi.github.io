@@ -140,8 +140,8 @@ a:hover { text-decoration: underline; }
 
 .dropdown { position: relative; display: block; }
 .dropdown-content { display: none; position: absolute; background-color: rgba(255, 255, 255, 0.2); min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
-.dropdown-content :hover {color: rgba(255, 255, 255, 0.8); text-decoration: none; background-color: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.3); }
-.dropdown:hover .dropdown-content { display: block; }
+.dropdown-content:hover {color: rgba(255, 255, 255, 0.8); text-decoration: none; background-color: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.3); }
+.dropdown:hover .dropdown-content { display: none; position: absolute; background-color: rgba(255, 255, 255, 0.2); min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
 .dropdown:hover .dropbtn { background-color: rgba(255, 255, 255, 0.2); }
    .dropbtn + .dropbtn { margin-top: 1rem; margin-left: 0; } }
 
