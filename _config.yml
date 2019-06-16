@@ -16,3 +16,17 @@ gems:
 
 #Others
 markdown: kramdown
+social:
+  - name: Twitter
+    icon: twitter
+    username: TrivediLab
+    url: https://twitter.com/djtrivedi
+    desc: Follow me on Twitter
+    share: true
+
+  - name: GitHub
+    icon: github
+    username: bencentra
+    url: https://github.com/dharatrivedi
+    desc: Fork me on GitHub
+    share: true
