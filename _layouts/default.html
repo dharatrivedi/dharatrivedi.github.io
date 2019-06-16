@@ -5,16 +5,16 @@
 
   <body>
     {% include page-header.html %}
-
-    <section class="main-content">
-      
-      {{ content }}
-
-      {% include page-footer.html %}
-
-    </section>
     
-    <aside id="sidebar">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          
+          {{ content }}
+
+        </section>
+
+        <aside id="sidebar">
           <a href="https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip" class="button">
             <small>Download</small>
             .zip file
@@ -32,6 +32,8 @@
         </aside>
       </div>
     </div>
+    
+    {% include page-footer.html %}
 
   </body>
 </html>
