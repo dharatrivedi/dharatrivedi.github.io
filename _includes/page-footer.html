@@ -1,26 +1,12 @@
 <footer class="site-footer">
-<div class="site-contact">
-
-      <p><strong>Contact</strong></p>
-      <ul class="social-media-list">
-        <li>
-          <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o"></i>
-            <span class="username">{{ site.email }}</span>
-          </a>
-        </li>
-
-        {% for social in site.social %}
-          {% if social.url != null %}
-          <li>
-            <a href="{{ social.url }}" title="{{ social.desc }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-
-      </ul>
-    </div>
+<div class='containerBox'>
+    <div>
+       <img src='http://ecx.images-amazon.com/images/I/21-leKb-zsL._SL500_AA300_.png' class='iconDetails'>
+       <div>
+       <h4>Facebook</h4>  
+       <div style="font-size:.6em;float:left; margin-left:5px;color:white;">fine location, GPS, coarse location</div>
+       <div style="float:right;font-size:.6em; margin-right:5px; color:white;">0 mins ago</div>
+       </div>
+   </div> 
+</div>
 </footer>
