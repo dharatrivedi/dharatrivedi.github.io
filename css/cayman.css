@@ -196,4 +196,4 @@ a:hover { text-decoration: underline; }
 
 .site-footer-owner { display: block; font-weight: bold; text-align: center; }
 
-.site-footer-credits { color: #819198; text-align: center; }
+.site-footer-credits { color: #819198; display: block; text-align: center; }
