@@ -7,8 +7,8 @@ locale:       "en"
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Dhara Trivedi
+  email:      dtrivedi@clarkson.edu
 
 # Gems
 gems:
