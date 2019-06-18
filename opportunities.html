@@ -4,13 +4,23 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>Coming Soon...</h1>
+  <h1>Join the Team</h1>
+  <h2>Undergraduate students</h2>
   <ul class="posts">
     {% for post in site.posts %}
-      Web Page Under Construction.
+      We always welcome motivated and hard-working undergraduate students to try themselves in the computational research! Haven't heard or never learned anything like that before? No problem!This is your chance to learn new skills and check it out for yourself if you may like to pursue it in the graduate school or even further in your career.
     {% endfor %}
   </ul>
-  <ul class="center">
-    <img src="/images/UnderConstruction.png" alt="WebPageUnderConstruction"> 
+  <h2>Graduate students</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      We are seeking motivated PhD graduate students interested in computational/theoretical research. There is no specific qualification requirement apart from your good self-motivation, readiness and willingness to learn new techniques and good organizational skills. Good math and programming preparation is a plus. Students inclined toward mathematical, physical, and computer sciences are encouraged to apply.
+    {% endfor %}
+  </ul>
+  <h2>Postdoctoral researchers</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      At this point, no postdoctoral positions are open.
+    {% endfor %}
   </ul>
 </div>
