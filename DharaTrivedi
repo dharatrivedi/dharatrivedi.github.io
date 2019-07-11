@@ -1,0 +1,25 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+  <h2>Dhara J. Trivedi</h2>
+  <ul class="clearfix">
+    <img class="img1" src="/images/PI.gif" alt="DharaTrivedi" width="180" height="240" hspace="20">  
+    <p> 
+      Assistant Professor<br />
+      Department of Physics<br />
+      Clarkson University<br />
+      Email: <a href="mailto:dtrivedi@clarkson.edu">dtrivedi@clarkson.edu</a><br />
+      Office: 263 Science Center<br />
+      Phone: 315-268-2398
+    </p>
+  </ul>
+  <ul class="posts">
+    {% for post in site.posts %}
+    Dhara Trivedi was born and grew up in Ahmedabad, Gujarat in India. She received her Bachelor of Science and Masters of Science in Physics, from Gujarat University in India. Trivedi earned her PhD in Physics from University of Rochester in 2015. Under the guidance of Prof. Oleg V. Prezhdo, her doctoral research focused on the time-domain density functional theory to model non-adiabatic molecular dynamics in various nanoscale systems. n the period of 2015-2018 she worked as a postdoctoral research associate in George Schatz's group in the Department of Chemistry, Northwestern University. During this time, she worked on applications of plasmonics properties of nanoscale systems. In 2018 she joined the Physics Department at Clarkson University as a Visiting Assistant Professor. She began as Assistant Professor at Clarkson University in 2019.
+    <p> </p>
+    Trivedi is a theoretician whose research focuses on developing new methods as applies to problems in nanotechnology, energy and charge transfer in complex condensed-phase chemical and biological environments, and properties of materials. Her past research work has also been concerned in the field of Spintronics, providing concise relations between the degrees of spin polarization and measured circular polarization for each of the dominant phonon-assisted optical transitions.
+  </ul>
+</div>
