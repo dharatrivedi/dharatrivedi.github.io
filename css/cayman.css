@@ -205,3 +205,5 @@ a:hover { text-decoration: underline; }
 .img1 { float: left; }
 
 .clearfix { overflow: auto; }
+
+.slideshow-container { max-width: 1000px;  position: relative;  margin: auto; }
