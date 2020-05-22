@@ -207,3 +207,5 @@ a:hover { text-decoration: underline; }
 .clearfix { overflow: auto; }
 
 .slideshow-container { max-width: 1000px;  position: relative;  margin: auto; }
+
+.numbertext {  color: rgba(0, 0, 0, 0.9);  font-size: 12px;  padding: 8px 12px;  position: absolute;  top: 0; }
