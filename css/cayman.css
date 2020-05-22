@@ -218,8 +218,7 @@ a:hover { text-decoration: underline; }
 @-webkit-keyframes fade {  from {opacity: .4}   to {opacity: 1}}
 @keyframes fade {  from {opacity: .4}   to {opacity: 1}}
 
-<html>
-  <script>
+<script>
     var slideIndex = 0;
     showSlides();
     
@@ -240,4 +239,3 @@ a:hover { text-decoration: underline; }
       setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
   </script>
-</html>
